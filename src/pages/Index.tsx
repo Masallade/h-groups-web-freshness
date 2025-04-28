@@ -1,3 +1,4 @@
+
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -53,7 +54,7 @@ const Index = () => {
             <BusinessCard 
               title="Milky Cow" 
               description="Premium dairy farm offering pure, fresh cow and goat milk with no chemicals and lab-tested purity. Experience the true taste of nature with our organic dairy products." 
-              imageUrl="https://images.unsplash.com/photo-1517022812141-23620dba5c23?auto=format&fit=crop&q=80"
+              imageUrl="/lovable-uploads/fe6d2005-9e7f-47cd-8925-e85a1c9f2755.png"
               buttonText="View More"
               link="/milky-cow"
               colorScheme="milkyCow"

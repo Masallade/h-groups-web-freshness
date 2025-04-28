@@ -1,8 +1,8 @@
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import MilkyCowLogo from './MilkyCowLogo';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,9 +42,10 @@ const Navbar = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="flex items-center">
-          <span className="font-heading font-bold text-2xl">
-            <span className="text-foreground">H-Groups</span>
+        <Link to="/" className="flex items-center space-x-2">
+          <MilkyCowLogo />
+          <span className="font-heading font-bold text-2xl text-foreground">
+            H-Groups
           </span>
         </Link>
 
@@ -125,3 +126,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

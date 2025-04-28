@@ -1,4 +1,3 @@
-
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -62,7 +61,7 @@ const Index = () => {
             <BusinessCard 
               title="Royal Butcher" 
               description="Specializing in fresh, hygienic, and halal-certified meat. We provide premium beef, mutton, and goat meat with hygienic processing and doorstep delivery." 
-              imageUrl="https://images.unsplash.com/photo-1493962853295-0fd70327578a?auto=format&fit=crop&q=80"
+              imageUrl="/lovable-uploads/ec042629-9a5b-4fc8-9c3e-ceb8132351fd.png"
               buttonText="View More"
               link="/royal-butcher"
               colorScheme="royalButcher"

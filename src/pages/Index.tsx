@@ -62,7 +62,7 @@ const Index = () => {
             <BusinessCard 
               title="Royal Butcher" 
               description="Specializing in fresh, hygienic, and halal-certified meat. We provide premium beef, mutton, and goat meat with hygienic processing and doorstep delivery." 
-              imageUrl="/lovable-uploads/ec042629-9a5b-4fc8-9c3e-ceb8132351fd.png"
+              imageUrl="/lovable-uploads/c8012bfc-6325-42e7-b28c-c224cc005f47.png"
               buttonText="View More"
               link="/royal-butcher"
               colorScheme="royalButcher"

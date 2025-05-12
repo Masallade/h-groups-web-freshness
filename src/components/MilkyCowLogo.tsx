@@ -8,12 +8,11 @@ interface MilkyCowLogoProps {
 const MilkyCowLogo = ({ className }: MilkyCowLogoProps) => {
   return (
     <img
-      src="/lovable-uploads/b78db90b-11dd-4ec0-b703-d8ab8c7fd92f.png"
-      alt="Milky Cow Logo"
+      src="/lovable-uploads/18f5d429-8228-46e6-a90a-bc6a661e122c.png"
+      alt="H-Groups Logo"
       className={cn("h-8 w-auto", className)}
     />
   );
 };
 
 export default MilkyCowLogo;
-

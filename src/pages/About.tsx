@@ -53,7 +53,7 @@ const About = () => {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="reveal font-heading text-3xl font-bold mb-6">Our Story</h2>
+              <h2 className="reveal font-heading text-3xl font-bold mb-6">Founder & CEO</h2>
               <div className="reveal space-y-4 text-gray-700">
                 <p>
                   H-Groups began as a humble family farm with a passion for quality and a deep respect for traditional farming methods.
@@ -68,8 +68,8 @@ const About = () => {
             </div>
             <div className="reveal">
               <img
-                src="https://images.unsplash.com/photo-1452378174528-3090a4bba7b2?auto=format&fit=crop&q=80"
-                alt="Farm History"
+                src="/lovable-uploads/104b2083-6179-44de-b6fe-6dd5cfb0cd3f.png"
+                alt="Founder & CEO"
                 className="rounded-lg shadow-lg w-full h-auto"
               />
             </div>
